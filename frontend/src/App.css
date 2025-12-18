@@ -1,0 +1,39 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f6f8fa;
+}
+
+.App {
+  display: flex;
+  justify-content: center;   /* horizontal center */
+  align-items: center;       /* vertical center */
+  min-height: 100vh;
+}
+
+.container {
+  background: white;
+  padding: 32px;
+  border-radius: 8px;
+  width: 420px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  text-align: center;        /* ⭐ THIS centers text */
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  margin-bottom: 12px;
+}
+
+button {
+  padding: 10px 16px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.response {
+  margin-top: 20px;
+  font-weight: 500;
+}
