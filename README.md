@@ -73,6 +73,7 @@ Enter a query like : What is the weather in Pune? ->
 Click **Ask**
 The app responds with "The weather in Pune is clear with a temperature of xx.x°C(depending on the live temp)."
 
+**Photos of the execution have been added in the screenshots folder.**
 
 
 
