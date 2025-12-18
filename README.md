@@ -55,9 +55,9 @@ OPENWEATHER_API_KEY=your_openweather_api_key_here
 **Backend setup**
 cd backend ->
 python -m venv venv(optional but recommended) ->
-venv\Scripts\activate(Windows)/ source venv/bin/activate(Mac/Linux)
+venv\Scripts\activate(Windows)/ source venv/bin/activate(Mac/Linux) ->
 **install dependencies**
-pip install fastapi uvicorn python-dotenv requests langchain langchain-openai
+pip install fastapi uvicorn python-dotenv requests langchain langchain-openai ->
 **run backend server**
 uvicorn main:app --reload ->
 **backend will run at** : http://127.0.0.1:8000
@@ -66,7 +66,7 @@ uvicorn main:app --reload ->
 **Frontend setup**
 cd frontend ->
 npm install -> 
-npm start
+npm start ->
 **frontend will run at** : http://localhost:3000
 
 Enter a query like : What is the weather in Pune? ->
